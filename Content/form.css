@@ -1,0 +1,165 @@
+﻿/*$basic-color: hsl(195, 74%, 62%);*/
+
+#loginPage {
+    background: url('../Images/loginB.jpg') no-repeat center center/cover;
+}
+#transferPage {
+    background: url('../Images/transferB.png') no-repeat center center/cover;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+#transactionPage {
+    background: url('../Images/billB.png') no-repeat center center/cover;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+#addUserPage {
+    background: url('../Images/addUserB.jpg') no-repeat center center/cover;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    min-height: 100vh;
+}
+
+.dropList {
+    background: transparent
+}
+h1 {
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px black;
+}
+
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.userDropDownButton select {
+    width: 100%;
+    padding: 10px 30px;
+    color: black;
+    border-radius: 5px;
+    border-color: lightgrey;
+}
+
+    .userDropDownButton select:hover {
+        border-color: lightgrey;
+    }
+
+    .userDropDownButton select option {
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        color: black;
+    }
+
+.password input {
+    width: 100%;
+    padding: 8px 12px;
+
+}
+
+    .password input:focus {
+        background: transparent;
+        border-color: #66afe9;
+        outline: 0;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, 0.6);
+    }
+
+.userButton {
+    padding: 10px 50px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    background-color: #0A1219
+}
+
+    .text-danger {
+        display: block;
+    }
+
+.formCSS {
+    max-width: 400px;
+    min-width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    box-shadow: 1px 1px 5px 1.2px lightgrey;
+    background-color: white;
+    align-self: center;
+    color: white;
+    background-color: rgba(255,255,255,.1);
+    backdrop-filter: blur(6px);
+}
+
+    .formCSS h2 {
+        text-align: center;
+        font-weight: 700;
+        display: block;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-shadow: 2px 2px black;
+    }
+
+    .formCSS .control-label {
+        text-align: left;
+        display: block;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+input[type="file"] {
+    display: block;
+    text-align: right;
+    padding-right: 14px;
+    padding-left: 15px;
+}
+
+@media screen and (min-width: 992px) {
+    .formCSS .control-label {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .loginForm {
+        display: flex;
+        height: 500px;
+        width: 100%;
+    }
+}
+
+.formCSS .form-horizontal .form-group {
+    margin-right: 0px;
+    margin-left: 0px;
+    display: block;
+}
+.formCSS .form-control {
+    width: 100%;
+    border: 1px solid lightgrey;
+    background: transparent;
+    color: lightgrey;
+    outline: none;
+}
+
+
+.formCSS div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userDropDownButton select {
+    padding: 0px 10px;
+    color:white;
+    outline:none
+}
+
+.field-validation-error {
+    display: block;
+}
+
+#pay {
+   background-color: #091F25
+}
+
